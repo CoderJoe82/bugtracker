@@ -4,7 +4,6 @@
 
 {% block content %}
     <h1>{{ticket.title}}</h1>
-    <!-- https://stackoverflow.com/questions/4320679/django-display-choice-value -->
     <h2>Ticket Status:  {{ticket.get_ticket_status_display}}</h2>
     <h3>Description</h3>
     <p> {{ticket.description}}</p>
